@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.meetJack{
+    text-align: center;
+}
+
+.jack_img{
+    display :flex;
+    justify-content:center;
+}
+.beget{
+    border:none;
+    background-color: white;
+    color: #2a5885;
+    text-decoration: none;
+    border-bottom: 2px solid #2a5885 ;
+
+}
+.beget2{
+    border: none;
+    background-color: white;
+    color: #2a5885;
+    text-decoration: none;
+    border-bottom: 2px solid #2a5885;
+
+}
+
+
+
+.footer_2020{
+    text-align:center;
+}
+
+

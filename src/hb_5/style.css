@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.name{
+    margin-top: 5px;
+}
+.name_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.add{
+    margin-top: 5px;
+}
+.add_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.city{
+    margin-top: 5px;
+}
+.city_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.state{
+    margin-top: 5px;
+}
+.state_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.zip{
+    margin-top: 5px;
+}
+.zip_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.magazine{
+    margin-top: 5px;
+}
+.magazine_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.subscription{
+    margin-top: 20px;
+}
+.subscription_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -32px;
+    margin-left: -1250px;
+}
+.subscription_2{
+    display: flex;
+    justify-content: center;
+    margin-top: -33px;
+    margin-left: -1100px;
+}
+.comment_1{
+    height: 70px;
+    width: 270px;
+}
+
+
+
+
+
+/*.container{
+    width: 100%;
+}
+.b1{
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.name{
+    position: absolute;
+    margin-top: 10px;
+}
+.address{
+    position: absolute;
+    margin-top: 15px;
+}
+.b2{
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.city{
+    position: absolute;
+    margin-top: 40px;
+}
+.b3{
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.state{
+    position: absolute;
+   margin-top: 30px;
+}
+.b4{
+
+    height: 20px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 65px;
+}
+*/

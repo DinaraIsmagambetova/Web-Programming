@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bedford_img{
+    position: relative;
+    width: 1540px;
+    height: 650px;
+}
+.bedford{
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    margin-top: -620px;
+    margin-left: 30px;
+    color: white;
+        font: 250% italic;
+}
+.foundation{
+    position: absolute;
+    height: 180px;
+    width: 140px;
+    margin-top: -570px;
+    margin-left: 34px;
+    color: white;
+    font: 90% "Microsoft Sans Serif";
+}
+.home{
+    position:absolute;
+    height: 60px;
+    width: 90px;
+    color: snow;
+    font: 95% "Microsoft Sans Serif";
+    margin-top: -600px;
+    margin-left: 950px;
+}
+.about{
+    position:absolute;
+    height: 60px;
+    width: 90px;
+    color: snow;
+    font: 95% "Microsoft Sans Serif";
+    margin-top: -600px;
+    margin-left: 1040px;
+}
+.news{
+    position:absolute;
+    height: 60px;
+    width: 90px;
+    color: snow;
+    font: 95% "Microsoft Sans Serif";
+    margin-top: -600px;
+    margin-left: 1150px;
+}
+.readme{
+    position:absolute;
+    height: 60px;
+    width: 90px;
+    color: snow;
+    font: 95% "Microsoft Sans Serif";
+    margin-top: -600px;
+    margin-left: 1250px;
+}
+.take_action{
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin-top: -617px;
+    margin-left: 1355px;
+    text-align: center;
+    background-color: #00000000;
+    color: snow;
+}
+.sustainability{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    color: snow;
+    font: 230% Gabriola;
+    margin-top: -425px;
+    margin-left: 690px;
+
+}
+.stars_with_you{
+    position: absolute;
+    height: 400px;
+    width: 700px;
+    color: snow;
+    font: 400% "Arial Black";
+    margin-top: -370px;
+    margin-left: 470px;
+}
+.learn_more{
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    border-radius: 20px;
+    border: 1px solid #36b3a8 ;
+    margin-top: -250px;
+    margin-left: 700px;
+    text-align: center;
+    background-color: #36b3a8;
+    color: white;
+}
+.text1{
+    position: absolute;
+    font: 230% Gabriola;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+.text2{
+    position: absolute;
+    font: 90% "Courier New";
+    margin-top: 155px;
+    margin-left: 350px;
+}
+.text3{
+    position: absolute;
+    font: 90% "Courier New";
+    margin-top: 180px;
+    margin-left: 370px;
+}
+.text4{
+    position: absolute;
+    font: 90% "Courier New";
+    margin-top: 205px;
+    margin-left: 390px;
+}
+.text5{
+    position: absolute;
+    font: 130% Gabriola;
+    margin-top: 250px;
+    margin-left: 600px;
+}
+.text6{
+    position: absolute;
+    font: 130% Gabriola;
+    margin-top: 250px;
+    margin-left: 790px;
+    color: #36b3a8;
+}
+.bedford2_img{
+    position: relative;
+    width: 490px;
+    height: 300px;
+    margin-top:390px;
+    margin-left:280px ;
+}
+.about2{
+    position:absolute;
+    height: 60px;
+    width: 90px;
+    color: gray;
+    font: 95% "Microsoft Sans Serif";
+    margin-top: -250px;
+    margin-left: 1000px;
+}
+.text7{
+    position: absolute;
+    font: 140% Gabriola;
+    margin-top: 480px;
+    margin-left: 150px;
+}
+.learn_more2{
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    border-radius: 20px;
+    border: 1px solid #36b3a8 ;
+    margin-top: 610px;
+    margin-left: 210px;
+    text-align: center;
+    background-color: #36b3a8;
+    color: white;
+}
+.take_action2{
+    position:absolute;
+    height: 60px;
+    width: 110px;
+    color: gray;
+    font: 99% "Microsoft Sans Serif";
+    margin-top:180px;
+    margin-left: 470px;
+}
+.text8{
+    position: absolute;
+    font: 140% Gabriola;
+    margin-top: 930px;
+    margin-left: -350px;
+}
+.find_out_how{
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    border-radius: 20px;
+    border: 1px solid #36b3a8 ;
+    margin-top: 370px;
+    margin-left: 450px;
+    text-align: center;
+    background-color: #36b3a8;
+    color: white;
+    padding-top: 10px;
+}
+.bedford4{
+    position: relative;
+    width: 490px;
+    height: 320px;
+    margin-top:150px;
+    margin-left: 850px ;
+}
+.footer_1{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: #eee;
+    margin-top: 80px;
+}
+.subscribe{
+    text-align: center;
+    font: 200% simplified;
+    margin-top: 50px;
+}
+.text10{
+    text-align: center;
+}
+.email{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    margin-left: 570px;
+
+}
+.sign_up{
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    margin-left: 850px;
+    background-color: #414141;
+    color: white;
+}
+.footer_2{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color:#131313;
+    margin-top: 301px;
+}
+.text11{
+    position: absolute;
+    color: #e4e4e4;
+    margin-left: 480px;
+    margin-top: 65px;
+}
+.power{
+    position: absolute;
+    color: #a1a1a1;
+    margin-top: 140px;
+    margin-left:700px;
+}
+.squarespace{
+    position: absolute;
+    margin-top: 140px;
+    background-color: #131313;
+    color: #a1a1a1;
+    margin-left:800px ;
+    border: none;
+}
+.line{
+    position: absolute;
+    width: 80px;
+    margin-top:160px ;
+    margin-left:805px ;
+    color: #a1a1a1;
+}

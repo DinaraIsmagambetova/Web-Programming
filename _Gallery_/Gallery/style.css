@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+}
+
+.gallery-0{
+  width: 100%;
+  padding: 60px 0;
+  background: url("img/pexels-megan-forbes-963436.jpg");
+
+}
+
+.inner{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  box-shadow: 10px 10px 80px #9612bd;
+
+}
+
+.gallery-0 h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #e8d635;
+
+}
+
+.line{
+  width: 280px;
+  height: 3px;
+  background: #e8d635;;
+  margin: 15px auto;
+}
+
+.gallery-0 .gallery{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.gallery-0 .image{
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-0 .image img{
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.gallery-0 .image:hover img{
+  transform: scale(1.7);
+}
+
+@media screen and (max-width:960px) {
+  .gallery-0 .image{
+    flex: 33.33%;
+  }
+  .gallery-0 .image:hover img{
+    transform: scale(1.7);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .gallery-0 .image{
+    flex: 50%;
+  }
+  .gallery-0 .image:hover img{
+    transform: scale(1.7);
+  }
+}
+
+@media screen and (max-width:480px) {
+  .gallery-0 .image{
+    flex: 100%;
+  }
+  .gallery-0 .image:hover img{
+    transform: scale(1.7);
+  }
+}

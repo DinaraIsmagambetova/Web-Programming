@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<title>Reverse numbers</title>
+<script type ="text/javascript">
+    function reverse_number()
+    {
+        var number = prompt("Enter the number to be reveresed : ");
+        var n= number;
+        var reverse = 0, reminder;
+        while (n>0)
+        {
+            reminder = n % 10;
+            reverse = reverse*10+reminder;
+            n = Math.floor(n/10);
+        }
+        document.write("The given number is : " +number+ " <br/> The reversed number is : " +reverse);
+    }
+
+</script>
+<body style="background-color:hotpink" onload="reverse_number();">
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>rectangular shape</title>
+</head>
+<body onload="rect_shape();">
+<canvas id="rect" width="150" height="150" ></canvas>
+<script>
+    function rect_shape() {
+        var rect = document.getElementById('rect');
+        if (rect.getContext) {
+            var shape = rect.getContext('2d');
+
+            shape.fillRect(20,20,100,100);
+            shape.clearRect(40,40,60,60);
+            shape.strokeRect(45,45,50,50);
+        }
+    }
+</script>
+</body>
+</html>

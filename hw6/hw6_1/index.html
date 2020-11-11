@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Calculation</title>
+</head>
+<body style="background-color: lightsteelblue">
+<div>
+    <h2 >NUMBER_1:</h2>
+    <input type="text" id="firstNumber" placeholder="">
+    <h2>NUMBER_2:</h2>
+    <input type="text" id="secondNumber" placeholder="">
+    <br>
+    <br>
+    <br>
+    <input type="button" onClick="multiply()" Value="MULTIPLY" />
+    <input type="button" onClick="divide()" Value="DIVIDE" />
+</div>
+<h2>The answer is :
+    <p id="answer"></p>
+</h2>
+<script>
+    function multiply()
+    {
+        n1 = document.getElementById("firstNumber").value;
+        n2 = document.getElementById("secondNumber").value;
+        document.getElementById("answer").innerHTML = n1 * n2;
+    }
+    function divide()
+    {
+        n1 = document.getElementById("firstNumber").value;
+        n2 = document.getElementById("secondNumber").value;
+        document.getElementById("answer").innerHTML = n1/n2;
+    }
+</script>
+</body>
+
+</html>

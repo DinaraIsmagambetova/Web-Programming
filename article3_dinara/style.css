@@ -1,0 +1,479 @@
+html, body {
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: adobe-garamond-pro;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+}
+.container{
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #282828;
+    letter-spacing: 1px;
+    font-size:17px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #282828;
+}
+
+.navbar-inverse{
+	background-color:#669966;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+/*main_page*/
+#main_page{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+#btn_{
+	border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    border: 0px solid #00000000;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;  
+    color: black;
+    background-color:#669966;
+    letter-spacing:1px;
+}
+
+
+
+#textPart{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#introducingPart{
+    text-align: center;
+    margin-top: 20%;
+}
+#textPart a{
+    font-size: 20px;
+}
+#textPart h1{
+    margin-top: 10px;
+    font-size: 50px;
+
+}
+
+#imagePart{
+    text-align: center;
+}
+
+.Description{
+      width: 100%;
+      height: 200px;
+      text-align: center;
+   }
+
+.text1_2{
+   	color:#669966;
+   }
+        .text1{
+          position: relative;
+          color: rgba(26,26,26,.9);
+          padding-top: 30px; 
+          line-height: 0.1em;
+        }
+        .text2{
+          position: relative;
+          color: green;
+
+        }
+        .text3{
+          font-size: 18px;
+          font-family: adobe-garamond-pro;
+          font-weight: 400;
+          font-style: italic;
+        }
+/*main_page*/
+
+    /*skincare_cosmetics*/
+#F4{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#subF4{
+  width: 60%;
+  height: auto;
+  margin: 30px 0px;
+  justify-content: center;
+}
+}
+#subF4 .row{
+  width: 100%;
+  height: auto;
+}
+.imagesF4{
+  width: 100%;
+  height: 100%;
+}
+      /*skincare_cosmetics*/
+/*best_sellers*/
+          .imagesF6{
+            border-radius: 50%;
+            height: 250px;
+            width: 250px;
+            margin-top: 5px;
+          }
+          .txt{
+            text-transform: none;
+            text-align: center;
+            margin-top: 5px;
+            font-size: 18px;
+            font-family: adobe-garamond-pro;
+            font-weight: 400;
+            font-style: italic;
+          }
+#F6{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#subF6{
+  width: 60%;
+  height: auto;
+  margin: 30px 0px;
+  justify-content: center;
+  text-align: center;
+}
+
+#subF6 .row{
+  width: 100%;
+  height: auto;
+}
+
+/*best_sellers*/
+
+/*beauty_spa*/   
+#img_beauty{
+      width: 70%;
+      height: 500px;
+      background-image: url(images/12.jpg);
+      background-size: cover;
+      background-position: center;
+      margin: auto;
+      text-align: center;
+    }
+
+        #txt_beauty{
+          width: 50%;
+          height: 100%;
+          float: right;
+          margin-right: 60px;
+          color: white;
+        }
+        
+        #btn{
+            border-radius: 25px;
+            width: 150px;
+            height: 38px;
+            border: 0px solid #00000000;
+            font-weight: 320;
+            font-size: 13px;
+            cursor: pointer;  
+            color: black;
+        }
+#beauty_spa{
+}
+
+#row1kyz{
+  width: 72%;
+      height: 500px;
+      margin: auto;
+      text-align: center;
+  
+}
+.img7_1{
+        float: left;
+        border-radius: 50%;
+        height: 450px;
+        width: 450px;
+        margin-top: 3%;
+        margin-left: 2%;
+
+      }
+#kyz{
+}
+
+#txt_kyz{
+            position: absolute;
+            width: 30%;
+            margin-top: 10%;
+            margin-left: 360px; 
+            
+          }
+.kyz_btn{
+    background-color: green;
+    color: white;
+    height: 40px;
+    border: 0px solid #00000000;
+    text-align: center;
+    cursor: pointer;  
+    font-size: 15px;
+    width: 250px;
+}
+.img7_2{
+        float: right;
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        margin-top: 8%;
+        margin-right: 70px;
+      }
+#txt{
+  font-size: 60px;
+    font-weight: 400;
+}
+/*beauty_spa*/     
+
+.popular_categories_h2{
+	text-align: center;
+	font-size: 32px;
+    line-height: 1.5em;
+}
+
+.popular_categories_h5{
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+.popular_categories img{
+	width: 200px;
+    height: 200px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    text-align:center;
+}
+
+.popular_categories .col-md-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px ;
+}
+
+.popular_categories p{
+      text-align: center;
+      color:#669966;
+}
+
+.popular_categories .row{
+	  width: 80%;
+      margin: auto;
+}
+
+.register{
+	font-family: sans-serif;
+	width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+	width:450px;
+	padding:20px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	background: #669966;
+	text-align:center;
+	border-radius:10px;
+}
+
+.box h1{
+	color:white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.box input[type = "text"], .box input[type = "password"], .box input[type = "email"]{
+	border:0;
+	background: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border-radius:24px;
+	padding: 14px 20px;
+	width:300px;
+	outline:none;
+	transition:0.25s;
+} 
+
+.box input[type = "submit"]{
+	border:0;
+	background: #282828;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border-radius:24px;
+	padding: 14px 40px;
+	outline:none;
+	transition:0.25s;
+	color:white;
+} 
+
+.no li a{
+	color:red;
+}
+
+#footer{
+    width: 100%;
+    min-height: 300px;
+    height: 100%;
+    background-color: #669966;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer b, footer p{
+    color: white;
+    font-size: 30px;
+}
+#platforms{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+footer img:hover{
+    transform: scale(1.2);
+}
+footer a{
+    text-align: center;
+}
+
+.group::after, .tabBlock-tabs::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+
+}
+
+
+@media screen and (min-width: 700px) {
+    body {
+        font-size: 200%;
+    }
+}
+
+p, ol, ul {
+    margin-bottom: 1.25rem;
+    margin-top: 0;
+}
+
+ol, ul {
+    padding: 0;
+    margin-left: 1.25rem;
+}
+
+.unstyledList, .tabBlock-tabs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tabBlock {
+    margin: 0 0 2.5rem;
+    box-shadow: 15px 15px 5px #669966;
+}
+
+.tabBlock-tab {
+    background-color: #fff;
+    border-color: #d8d8d8;
+    border-left-style: solid;
+    border-top: solid;
+    border-width: 4px;
+    color: #b5a8c5;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    float: left;
+    padding: 0.625rem 1.25rem;
+    position: relative;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+.tabBlock-tab:last-of-type {
+    border-right-style: solid;
+}
+.tabBlock-tab::before, .tabBlock-tab::after {
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+.tabBlock-tab::before {
+    background-color: #f6fff7;
+    left: -2px;
+    right: -2px;
+    top: -2px;
+}
+.tabBlock-tab::after {
+    background-color: transparent;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+}
+@media screen and (min-width: 700px) {
+    .tabBlock-tab {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
+.tabBlock-tab.is-active {
+    position: relative;
+    color: #669966;
+    z-index: 1;
+}
+.tabBlock-tab.is-active::before {
+    background-color: #669966;
+}
+.tabBlock-tab.is-active::after {
+    background-color: #fff;
+}
+
+.tabBlock-content {
+    background-color: #fff;
+    border: 2px solid #d8d8d8;
+    padding: 1.25rem;
+}
+
+.tabBlock-pane > :last-child {
+    margin-bottom: 0;
+}

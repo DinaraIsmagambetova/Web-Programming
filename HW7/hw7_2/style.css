@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #c3b6ff;
+}
+.wrapper{
+    height: 300px;
+    width:800px;
+
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+textarea{
+    height:200px ;
+    width: 100%;
+    font-size: 26px;
+    resize: none;
+}
+button{
+    height: 40px;
+    width: 200px;
+    margin-left: 300px;
+    cursor: pointer;
+    background-color: #d904de;
+    border: none;
+    border-radius: 25px;
+    font-size: 30px;
+    color: white;
+
+}
+p{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}

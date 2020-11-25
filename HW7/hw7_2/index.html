@@ -1,0 +1,32 @@
+<html>
+<head>
+ <title>Counter</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="Monkey_D_Luffey_icon-icons.com_76555.ico">
+</head>
+<body>
+    <div class="wrapper">
+            <textarea id="input"></textarea>
+        <br>
+        <br>
+        <br>
+            <button onclick="calculate()">click</button>
+        <br>
+        <br>
+        <br>
+        <p id="output1"></p>
+        <p id="output2"></p>
+    </div>
+<script>
+    const  calculate = () =>{
+        let input=document.getElementById('input').value;
+        let total_char=input.length;
+        let output1=document.getElementById('output1').innerHTML="Total Characters = " +  total_char;
+        let count=input.match(/\w+/g);
+        total_words=count.length;
+        let output2=document.getElementById('output2').innerHTML="Total Words = " + total_words;
+    }</script>
+</body>
+</html>
